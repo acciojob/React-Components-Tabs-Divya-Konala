@@ -1,10 +1,8 @@
 import React from 'react'
 
 const Features=()=>{
-    return <div>
-        <div class='tab' id='About-Features'>
-            Features
-        </div>
+    return <div class='tab' id='Features-Tab'>
+        Features
     </div>
 }
 
