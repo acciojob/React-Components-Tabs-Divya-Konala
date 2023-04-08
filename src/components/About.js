@@ -1,7 +1,7 @@
 import React from 'react'
 
 const About=()=>{
-    return <div className='tab' id='About-tab'>
+    return <div class='tab' id='About-tab'>
         About
     </div>
 }

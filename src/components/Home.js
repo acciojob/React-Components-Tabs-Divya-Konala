@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home=()=>{
-    return <div className='tab' id='Home-tab'>
+    return <div class='tab' id='Home-tab'>
         Home
     </div>
 }

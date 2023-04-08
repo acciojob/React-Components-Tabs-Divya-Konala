@@ -1,5 +1,5 @@
 import React from 'react'
-import Tabs from './Tabs'
+import Navbar from './Navbar'
 import Home from './Home'
 import About from './About'
 import Features from './Features'
@@ -8,8 +8,8 @@ import {Routes,Route} from 'react-router-dom'
 import Viewport from './Viewport'
 
 const Allroutes=()=>{
-    return <div className='Allroutes'>
-        <Tabs/>
+    return <div class='tabs'>
+        <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
